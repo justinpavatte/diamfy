@@ -207,7 +207,7 @@ document.addEventListener("DOMContentLoaded",function(){
     if(i===0) el.classList.add("active");
     c.appendChild(el);
   });
-  var interval=parseInt(c.getAttribute("data-interval")||"5000",10);
+  var interval=parseInt(c.getAttribute("data-interval")||"3000",10);
   var index=0;
   setInterval(function(){
     var slides=c.querySelectorAll("img, .placeholder");
